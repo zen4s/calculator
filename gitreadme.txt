@@ -30,4 +30,14 @@
 # Switch to new branch calcController
 # git checkout calcController
 #
+# To get master code & merge with branch code and then push the branch code
+# so it is latest code with required change
+# Step 1: git checkout calcController
+# Step 2: make changes to code , add new code files
+# step 3: git add -A
+# step 4: git commit -m "Add code for calcController Branch"
+# step 5: git checkout master
+# step 6: git pull
+# step 7: git checkout calcController
+# step 8: git merge master
 #
